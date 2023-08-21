@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background: rgb(253, 253, 253);
+    background: linear-gradient(
+      90deg,
+      rgba(253, 253, 253, 1) 0%,
+      rgba(254, 185, 54, 1) 100%
+    );
+    border-bottom: 3px solid orangered;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+  }
+  .dongchu {
+    margin-left: 150px;
+  }
+  .navbar {
+    background-color: #ed7e01;
+    height: 38px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    list-style: none;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif, "Arial", Helvetica;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .content {
+    margin-top: 10px;
+    padding: 0 150px;
+    padding-bottom: 100px;
+  }
+  .content-info {
+    display: flex;
+    margin-top: 20px;
+  }
+  .content-info--left {
+    width: 50%;
+  }
+  .content-info--right {
+    width: 50%;
+    margin-left: 40px;
+  }
+  .content-title {
+    width: 150px;
+    height: 46px;
+    background-color: #ed7e01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif, "Arial", Helvetica;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .content-img {
+    width: 100%;
+    margin-top: 3px;
+  }
+  .content-header {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .text-content {
+    margin-top: 10px;
+    display: -webkit-box; /* Cung cấp flexbox-like layout */
+    -webkit-line-clamp: 3; /* Số dòng tối đa hiển thị */
+    -webkit-box-orient: vertical; /* Định hướng dọc */
+    overflow: hidden; /* Ẩn văn bản dư thừa */
+    text-overflow: ellipsis;
+  }
+  .cr-title {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif, "Arial", Helvetica;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+  }
+  .tin1 {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+  }
+  .cr-img {
+    width: 100px;
+  }
+  .tin1-content {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .time {
+    color: #888;
+  }
+  .footer {
+    height: 200px;
+    background: rgb(255, 133, 62);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 133, 62, 1) 0%,
+      rgba(240, 0, 0, 1) 100%
+    );
+  }
